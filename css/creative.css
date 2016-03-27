@@ -84,6 +84,10 @@ nav {
   background-color: #3898B2;
 }
 
+.navbar-brand img {
+  height: 25px;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -135,6 +139,7 @@ nav {
         background-color: #3898B2;
     }
 
+
     .navbar-default .navbar-header .navbar-brand {
         color: rgba(255,255,255,.7);
     }
@@ -157,9 +162,6 @@ nav {
     .navbar-default.affix {
         border-color: rgba(34,34,34,.05);
         background-color: #fff;
-    }
-    .navbar-brand img {
-      height: 100%;
     }
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
@@ -191,6 +193,7 @@ header {
     background-image: url("/img/header.png");
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 60%;
 }
 
 header .header-content {
@@ -260,6 +263,7 @@ header .header-content .header-content-inner p {
         margin: 20px auto 0;
     }
 }
+
 
 .service-box p {
     margin-bottom: 0;
