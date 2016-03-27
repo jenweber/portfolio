@@ -182,6 +182,14 @@ nav {
     .navbar-default.affix .nav>li>a:focus:hover {
         color: #e6694c;
     }
+
+    .resume-btn {
+      margin: 5% auto 0 auto;
+    }
+}
+
+.resume-btn {
+  margin: 5% auto 0 auto;
 }
 
 header {
