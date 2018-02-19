@@ -45,6 +45,15 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+#contact a i {
+    color: #3898B2;
+}
+
+#contact a {
+  color: rgb(34, 126, 151);
+
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -52,7 +61,17 @@ p {
 }
 
 .bg-primary {
-    background-color: #660033;
+    background-color: #fff;
+    color: #333;
+}
+
+h2 {
+    color: #a3165d;
+    /* font-weight: bold; */
+    font-size: 3em;
+    font-family: 'Sedgwick Ave Display',
+    cursive;
+
 }
 
 .bg-dark {
@@ -65,7 +84,7 @@ p {
 }
 
 section {
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 aside {
@@ -196,6 +215,19 @@ header {
     background-position: center;
     background-size: 40%;
 }
+
+@media (max-width: 800px) {
+    header {
+        background-size: 50%;
+    }
+}
+
+@media (max-width: 500px) {
+  header {
+    background-size: 80%;
+  }
+}
+
 
 header .header-content {
     position: relative;
