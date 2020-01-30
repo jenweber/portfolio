@@ -25,10 +25,11 @@ hr.light {
 }
 
 a {
-    color: #e6694c;
+    color: #a3165d;;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    text-decoration: underline;
 }
 
 a:hover,
