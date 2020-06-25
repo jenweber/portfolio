@@ -25,10 +25,11 @@ hr.light {
 }
 
 a {
-    color: #e6694c;
+    color: #d31373;;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
+    text-decoration: underline;
 }
 
 a:hover,
@@ -205,7 +206,7 @@ header {
     height: 95%;
     text-align: center;
     background-color: #3898B2;
-    background-image: url("https://github.com/jenweber/portfolio/blob/master/img/header.png?raw=true");
+    background-image: url("../img/header.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 40%;
