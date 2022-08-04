@@ -48,6 +48,84 @@ define("portfolio-2/tests/test-helper", ["portfolio-2/app", "portfolio-2/config/
   (0, _qunitDom.setup)(QUnit.assert);
   (0, _emberQunit.start)();
 });
+define("portfolio-2/tests/unit/routes/application-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | application', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:application');
+      assert.ok(route);
+    });
+  });
+});
+define("portfolio-2/tests/unit/routes/index-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | index', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:index');
+      assert.ok(route);
+    });
+  });
+});
+define("portfolio-2/tests/unit/routes/projects-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | projects', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:projects');
+      assert.ok(route);
+    });
+  });
+});
+define("portfolio-2/tests/unit/routes/videos-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | videos', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:videos');
+      assert.ok(route);
+    });
+  });
+});
+define("portfolio-2/tests/unit/routes/work-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | work', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:work');
+      assert.ok(route);
+    });
+  });
+});
+define("portfolio-2/tests/unit/routes/writing-test", ["qunit", "portfolio-2/tests/helpers"], function (_qunit, _helpers) {
+  "use strict";
+
+  0; //eaimeta@70e063a35619d71f0,"qunit",0,"portfolio-2/tests/helpers"eaimeta@70e063a35619d71f
+
+  (0, _qunit.module)('Unit | Route | writing', function (hooks) {
+    (0, _helpers.setupTest)(hooks);
+    (0, _qunit.test)('it exists', function (assert) {
+      let route = this.owner.lookup('route:writing');
+      assert.ok(route);
+    });
+  });
+});
 define('portfolio-2/config/environment', [], function() {
   var prefix = 'portfolio-2';
 try {

@@ -291,7 +291,90 @@
   }
 
   _exports.default = Router;
-  Router.map(function () {});
+  Router.map(function () {
+    this.route('writing');
+    this.route('videos');
+    this.route('projects');
+    this.route('work');
+  });
+});
+;define("portfolio-2/routes/application", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class ApplicationRoute extends _route.default {}
+
+  _exports.default = ApplicationRoute;
+});
+;define("portfolio-2/routes/index", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class IndexRoute extends _route.default {}
+
+  _exports.default = IndexRoute;
+});
+;define("portfolio-2/routes/projects", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class ProjectsRoute extends _route.default {}
+
+  _exports.default = ProjectsRoute;
+});
+;define("portfolio-2/routes/videos", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class VideosRoute extends _route.default {}
+
+  _exports.default = VideosRoute;
+});
+;define("portfolio-2/routes/work", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class WorkRoute extends _route.default {}
+
+  _exports.default = WorkRoute;
+});
+;define("portfolio-2/routes/writing", ["exports", "@ember/routing/route"], function (_exports, _route) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"@ember/routing/route"eaimeta@70e063a35619d71f
+
+  class WritingRoute extends _route.default {}
+
+  _exports.default = WritingRoute;
 });
 ;define("portfolio-2/serializers/-default", ["exports", "@ember-data/serializer/json"], function (_exports, _json) {
   "use strict";
@@ -414,6 +497,121 @@
     "id": "5DOwstxv",
     "block": "[[[1,[28,[35,0],[\"Portfolio2\"],null]],[1,\"\\n\\n\"],[8,[39,1],null,null,null],[1,\"\\n\"],[1,\"\\n\"],[46,[28,[37,3],null,null],null,null,null]],[],false,[\"page-title\",\"welcome-page\",\"component\",\"-outlet\"]]",
     "moduleName": "portfolio-2/templates/application.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
+;define("portfolio-2/templates/index", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Index"}}
+  {{outlet}}
+  */
+  {
+    "id": "n9WHVawE",
+    "block": "[[[1,[28,[35,0],[\"Index\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "portfolio-2/templates/index.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
+;define("portfolio-2/templates/projects", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Projects"}}
+  {{outlet}}
+  */
+  {
+    "id": "WLB0L63b",
+    "block": "[[[1,[28,[35,0],[\"Projects\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "portfolio-2/templates/projects.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
+;define("portfolio-2/templates/videos", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Videos"}}
+  {{outlet}}
+  */
+  {
+    "id": "+Zzh0s9R",
+    "block": "[[[1,[28,[35,0],[\"Videos\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "portfolio-2/templates/videos.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
+;define("portfolio-2/templates/work", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Work"}}
+  {{outlet}}
+  */
+  {
+    "id": "htYEsdPW",
+    "block": "[[[1,[28,[35,0],[\"Work\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "portfolio-2/templates/work.hbs",
+    "isStrictMode": false
+  });
+
+  _exports.default = _default;
+});
+;define("portfolio-2/templates/writing", ["exports", "@ember/template-factory"], function (_exports, _templateFactory) {
+  "use strict";
+
+  Object.defineProperty(_exports, "__esModule", {
+    value: true
+  });
+  _exports.default = void 0;
+  0; //eaimeta@70e063a35619d71f0,"ember-cli-htmlbars"eaimeta@70e063a35619d71f
+
+  var _default = (0, _templateFactory.createTemplateFactory)(
+  /*
+    {{page-title "Writing"}}
+  {{outlet}}
+  */
+  {
+    "id": "68OsZg7M",
+    "block": "[[[1,[28,[35,0],[\"Writing\"],null]],[1,\"\\n\"],[46,[28,[37,2],null,null],null,null,null]],[],false,[\"page-title\",\"component\",\"-outlet\"]]",
+    "moduleName": "portfolio-2/templates/writing.hbs",
     "isStrictMode": false
   });
 
