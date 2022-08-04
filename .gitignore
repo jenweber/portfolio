@@ -4,8 +4,8 @@ _SpecRunner.html
 *.woff2
 *.woff
 *.svg
-*.ttf
 *.eot
+dist/*
 
 # Created by https://www.gitignore.io
 
