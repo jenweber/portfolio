@@ -1,1 +1,14 @@
-{{yield}}
+<MobileMenuWrapper as |mmw|>
+  <mmw.MobileMenu @type="right" as |mm|>
+    <mm.LinkTo @route="index">Home</mm.LinkTo>
+    <mm.LinkTo @route="writing">Writing</mm.LinkTo>
+    <mm.LinkTo @route="videos">Videos</mm.LinkTo>
+    <mm.LinkTo @route="projects">Projects</mm.LinkTo>
+    <mm.LinkTo @route="work">Work</mm.LinkTo>
+  </mmw.MobileMenu>
+
+  <mmw.Content>
+    <mmw.Toggle>Menu</mmw.Toggle>
+    {{yield}}
+  </mmw.Content>
+</MobileMenuWrapper>
