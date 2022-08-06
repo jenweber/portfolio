@@ -10,7 +10,12 @@
   </mmw.MobileMenu>
 
   <mmw.Content>
-    <mmw.Toggle>Menu</mmw.Toggle>
-    {{yield}}
+    <header class="header">
+      <span class="nav-title">Jen Weber</span>
+      <mmw.Toggle>Menu</mmw.Toggle>
+    </header>
+    <main class="main-content">
+      {{yield}}
+    </main>
   </mmw.Content>
 </MobileMenuWrapper>

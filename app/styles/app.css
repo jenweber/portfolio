@@ -3,7 +3,29 @@
   src: url('/fonts/JosefinSans-VariableFont_wght.ttf');
 }
 
+:root {
+  --page-edge-padding: 20px;
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-variation-settings: 'wght' 350;
+  font-size: 1.2rem;
+}
+
+p {
+  line-height: 1.25;
+}
+
+.nav-title {
+  font-variation-settings: 'wght' 500;
+  font-size: 3rem;
+}
+
+.header {
+  padding: var(--page-edge-padding);
+}
+
+.main-content {
+  padding: var(--page-edge-padding);
 }
