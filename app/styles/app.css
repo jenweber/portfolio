@@ -22,6 +22,11 @@ p {
   font-size: 3rem;
 }
 
+.nav-social-img {
+  max-width: 32px;
+  padding-left: 24px;
+}
+
 .header {
   padding: var(--page-edge-padding);
 }
