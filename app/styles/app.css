@@ -34,3 +34,22 @@ p {
 .main-content {
   padding: var(--page-edge-padding);
 }
+
+.stackable {
+  display: flex;
+  direction: row;
+}
+
+.phone-img {
+  width: 250px;
+}
+
+.phone-container {
+  transform: rotate(15deg);
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.main-content {
+  padding-left: 50px;
+}
