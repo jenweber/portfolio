@@ -7,6 +7,12 @@
   --page-edge-padding: 20px;
 }
 
+@media screen and (min-width: 900px) {
+  :root {
+    --page-edge-padding: 40px;
+  }
+}
+
 body {
   font-family: 'Josefin Sans', sans-serif;
   font-variation-settings: 'wght' 350;
@@ -15,6 +21,10 @@ body {
 
 p {
   line-height: 1.25;
+}
+
+.left-column {
+  max-width: 800px;
 }
 
 .nav-title {
@@ -37,20 +47,37 @@ p {
 
 .stackable {
   display: flex;
-  direction: row;
+  flex-direction: column;
 }
 
 .phone-img {
-  width: 250px;
+  max-width: 150px;
 }
 
 .phone-container {
-  transform: rotate(10deg);
-  padding-right: 50px;
-  padding-left: 30px;
-  padding-top: 40px;
+  transform: rotate(0deg);
+  padding: 10px;
+  margin: 0 auto;
 }
 
-.main-content {
-  padding-left: 50px;
+footer {
+  padding: var(--page-edge-padding);
+}
+
+@media screen and (min-width: 900px) {
+  .stackable {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .phone-img {
+    max-width: 250px;
+  }
+
+  .phone-container {
+    transform: rotate(10deg);
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 40px;
+  }
 }
