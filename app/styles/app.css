@@ -19,6 +19,11 @@ body {
   font-size: 1.2rem;
 }
 
+h2 {
+  font-size: 1.3rem;
+  margin-top: 40px;
+}
+
 p {
   line-height: 1.25;
 }
